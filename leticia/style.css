@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+}
+body {
+    background-color: #FFE587;
+    color: #2631A3;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+    color: black;
+}
+
+main {
+    font-size: 1.2em;
+    background-color: #d29bff;
+    margin: auto;
+    width: 600px;
+    padding: 1%;
+    border-radius: 2%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.651)
+}

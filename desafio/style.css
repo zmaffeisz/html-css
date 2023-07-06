@@ -1,0 +1,117 @@
+body {
+    background-color: #c5ebd6;
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 1px 20px;
+    margin: auto;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.336);
+ }
+
+ header {
+    background-image: linear-gradient(#83e1AD, #063d1e);
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.356);
+    text-align: center;
+ }
+
+h1 {
+   text-transform: uppercase;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 2.3em;
+}
+
+ header > p {
+   text-align: center;
+   color: #afc4b8;
+ }
+
+ p {
+   text-align: left;
+   text-indent: 30px;
+ }
+
+ nav {
+    text-align: left;
+    padding-bottom: 5px;
+    padding-bottom: 10px;
+ }
+
+ nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 5px 5px 5px;
+
+ }
+
+ nav > a:visited {
+    color: rgb(255, 255, 255);
+ }
+
+ nav > a:hover {
+    background-color: #83e1ad54;
+    border-radius: 5px;
+    transition-duration: 0.1s;
+ }
+
+div#video {
+   background-color: #063d1e;
+   padding: 30px;
+}
+
+ aside {
+   text-align: left;
+   background-color: #83e1AD;
+   border-radius: 0px 0px 15px 15px;
+   padding: 15px;
+}
+
+h4 {
+   background-color: #136637;
+   padding: 10px;
+   border-radius: 15px 15px 0px 0px;
+   color: white;
+   text-align: left;
+   margin-bottom: 0px;
+}
+
+ h3 {
+   text-align: left;
+   background-image: linear-gradient(to right, #a7dfc0, #fff);
+   color: #063d1e;
+   padding: 2px;
+}
+
+h2 {
+   text-align: left;
+   font-size: 1.6em;
+   color:#136637;
+   background-image: linear-gradient(to right, #a7dfc0, #fff);
+   padding: 2px;
+}
+
+ul {
+   -moz-column-count: 2;
+   -moz-column-gap: 20px;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 20px;
+   column-count: 2;
+   column-gap: 20px;
+}
+
+footer {
+   text-align: center;
+   background-color: black;
+   color: white;
+   margin-top: 15px;
+   padding: 10px;
+}
